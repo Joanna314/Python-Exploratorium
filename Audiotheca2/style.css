@@ -1,0 +1,109 @@
+body{
+	background-color: rgb(250,235,224);
+	color: rgb(47, 69, 63);
+	font-family: 'Bradley Hand', cursive;
+	text-align: center;
+	}
+
+img{
+
+	padding-top: 15%;
+}
+
+textarea{
+	resize: none;
+	width: 1000px;
+	height: 20px;
+	background-color: rgb(221,231,199);
+	position: absolute;
+  	left: 85px; 
+  	top: -250px; 
+  	bottom: 10px;
+  	/*margin-bottom: 200px;
+  	margin-top: 100px;*/
+}
+button{
+	margin-right: -1500px;
+	bottom: 10px;
+	top: 150px;
+	right: 1590px;
+	width: 100px;
+	height: 25px;
+	position: absolute;
+}
+input {
+
+	border-radius: 50%;
+}
+
+#playlistbox1 {
+  background-color: rgb(193,172,149);
+  width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#playlistbox2 {
+  background-color: rgb(193,172,149);
+  width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+}
+#playlistbox3 {
+  background-color: rgb(193,172,149);
+ width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+}
+#playlistbox4 {
+  background-color: rgb(193,172,149);
+  width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+ }
+ #playlistbox5 {
+  background-color: rgb(193,172,149);
+width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+ }
+ #playlistbox6 {
+  background-color: rgb(193,172,149);
+  width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+ }
+ #playlistbox7 {
+  background-color: rgb(193,172,149);
+  width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+ }
+ #playlistbox8 {
+  background-color: rgb(193,172,149);
+  width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+ }
+ #playlistbox9 {
+  background-color: rgb(193,172,149);
+ width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+ }
+ #playlistbox10 {
+  background-color: rgb(193,172,149);
+  width: 1200px;
+  height: 80px;
+  margin-bottom: 10px;
+   margin-left: 50px;
+ }

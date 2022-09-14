@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel = "icon" href = 
+"Pridelogo.PNG" 
+        type = "image/x-icon">
+</head>
+<body>
+    <div id="background">
+    <ul id="navbar">
+        <li><h5> <A HREF="Content.html">Content</A></h5></li>   
+        <li><h5><A HREF="Events.html">Events</A></h5></li> 
+        <A HREF="Homepage.html"><img src="Pridelogo.PNG" width="90px" height="90px" id="logo"></A>
+        <li><h5><A HREF="Quote.html">Quote</A></h5></li> 
+        <li><h5><A HREF="Explore.html">Explore</A></h5></li>  
+    </ul>
+    <div id="header"> 
+        <ul>
+           <li>
+                <h1>
+                  Welcome:<span id="result"></span>
+                    <script>
+                        document.getElementById("result").innerHTML = localStorage.getItem("usersName");
+                    </script>
+                </h1>
+            </li>  
+        </ul>
+    </div>
+    </div>
+    <div id = "gallery">
+        <img src="pride1.jpg" width: 100%>
+        <img src="pride2.jpg" width: 100%>
+        <img src="pride3.jpg" width: 100%>
+        <img src="pride4.jpg" width: 100%>
+        <img src="pride5.jpg" width: 100%>
+        <img src="pride6.jpg" width: 100%>
+        <img src="pride7.png" width: 100%>
+        <img src="pride8.jpg"width: 100%>
+        <img src="pride9.jpg"width: 100%>
+        <img src="pride10.jpg"width: 100%>
+
+    </div>
+</body>
+</html>

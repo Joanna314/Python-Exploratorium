@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelfPride</title>
+    <link rel = "icon" href = 
+"Pridelogo.PNG" 
+        type = "image/x-icon">
+    <script>
+        function saveName(){
+            var name = document.getElementById("usersName").value;
+            localStorage.setItem("usersName", name);
+            return false;
+        }
+    </script>
+
+</head>
+<body>
+    <img src="SelfPride.PNG" width="300px" height="80px">
+    
+    <div id="logincontainer" >
+        <div id="login">
+            <h1>Login</h1> 
+            <h2>                                                 </h2>
+            <h2>                                                 </h2>
+            <h2>                                                 </h2>
+            <form action="Homepage.html">
+                <input type="text" class="form-control" name="username" placeholder="Username" tabindex="1" id = "usersName"/>
+                <input  type="password" class="form-control" name="password" placeholder="Password" tabindex="2" id="myInput" />
+                <input type="submit" value="Login" onclick="saveName()"/>   
+            </form>                
+        </div> 
+    </div>
+    
+</body>
+</html>

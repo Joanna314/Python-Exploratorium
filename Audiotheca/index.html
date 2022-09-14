@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+	<style type="text/css">
+	</style>
+<head>
+	<title>Create!</title>
+</head>
+<body>
+	<h1>Create Episodes!</h1>
+	<h4>This is your safe space to document your day</h4>
+	<!img src="mic.png" width="100" height="100" style="float: right; margin-right: 280px;" style="vertical-align:middle;margin:0px 50px"!>
+	<button id = button2>Publish</button>
+	<input type="image" name="playbtn" src="mic.png" width="100" height="100" style="float: right; margin-right: 280px; margin-top: 50px; " style="vertical-align:middle;margin:0px 200px" id="button" value = "button" style= "color:white" onclick="setColor('button')";>
+	<script>
+	function setColor(btn){
+    	var count=1;
+    	var property = document.getElementById(btn);
+    	if (count == 0){
+        	property.style.backgroundColor = "#79fc79"
+        	count=1;        
+    	}
+    	else{
+        	property.style.backgroundColor = "#fc6265"
+        	count=0;
+    	}
+
+	}	
+	</script>
+	<div class = "notes" >
+		<form >
+			<textarea placeholder="Add your notes" id='output' style="float: right; margin-right: 280px; margin-top: 400px; " style="vertical-align:middle;margin:0px 200px"></textarea>
+		</form>
+	</div>
+	<button >Save Notes!</button>
+	<div id="playlistbox1">
+Season 1: Episode 5
+</div>
+<div id="playlistbox2">
+	Season 1: Episode 4
+</div>
+<div id="playlistbox3">
+Season 1: Episode 3
+</div>
+<div id="playlistbox4">
+Season 1: Episode 2
+</div>
+</body>
+</html>

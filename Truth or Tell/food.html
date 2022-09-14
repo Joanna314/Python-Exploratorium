@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Dare Devil</title>
+        <p style="color:#0008ff; font-family: courier new; font-size: 250%;"><u>Personal Information</u></p>
+        <script src="food.js"></script>
+    </head>
+    <body bgcolor="#e6ffff">
+            <table border=1px>
+                <tr>
+                    <td bgcolor="#ccf2ff" style="width:300px; color:#0008ff; font-family: courier new;">What is your favourite cuisine? 
+                    </td>
+                    <td><select id=htmlFood style="width:150px; color:#0008ff; font-family: courier new;">
+                        <option value="southAsian">South Asian</option>
+                        <option value="asian">Asian</option>
+                        <option value="mediterranean">Mediterranean</option>
+                        <option value="european">European</option>
+                        <option value="northAmerican">North American</option>
+                        <option value="caribbean">Caribbean</option>
+                        <option value="vietnamese">Vietnamese</option>
+                        <option value="italian">Italian</option>
+                        <option value="japanese">Japanese</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ccf2ff" style="width:150px; color:#0008ff; font-family: courier new;">Do you like to try new things? 
+                    </td>
+                    <td><select id="comfortLevel" style="width:150px; color:#0008ff; font-family: courier new;">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        </select><br>
+                    </td>
+                </tr>
+            </table>
+            <br><br><br>
+            <button onclick="dare1()" style="background-color:#ccf2ff;color:#0008ff; font-family: courier new;">Submit</button>
+            <input type="reset" style="background-color:#ccf2ff;color:#0008ff; font-family: courier new;">
+        
+        <p></p>
+        <div id="dare1"></div>
+        <div id='dare2'></div>
+        <p></p>
+    </body>
+</html>

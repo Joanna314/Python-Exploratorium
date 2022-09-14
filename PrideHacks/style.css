@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(245, 245, 245);
+    background-image: url(rainbow.png);
+    background-size: cover;
+}
+
+#logincontainer{
+    background-color: rgb(176, 203, 235);
+    font-family: arial;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10%;
+    border-radius: 20%;
+}
+h1{
+    padding-top: 7%;
+    color: rgb(100, 100, 199);
+}
+h3{
+    padding-top: 9%;
+    margin-right: 45%;
+    color: rgb(100, 100, 199);
+    padding-bottom: 9%;
+}
+input{
+    margin-top: 2%;
+}
+button{
+    margin-top: 9%;
+}
+img{
+    border-radius: 5%;
+}
+
